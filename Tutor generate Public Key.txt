@@ -1,0 +1,8 @@
+public key code 
+rsa -in mykey.pem -pubout -out mypublickey.pem
+
+
+private key : 
+genrsa -out mykey.pem 1024
+
+https://sourceforge.net/projects/gnuwin32/postdownload
